@@ -1,5 +1,4 @@
-from osgeo import gdal
-
+from osgeo import gdal       # Load GDAL python package
 import pysyncrosim as ps     # Load pysyncrosim python package
 import pandas as pd          # Load pandas python package
 myScenario = ps.Scenario()   # Get the SyncroSim Scenario that is currently running
